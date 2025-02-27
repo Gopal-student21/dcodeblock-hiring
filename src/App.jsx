@@ -8,6 +8,7 @@ import Header from './Components/Header'
 function App() {
   return (
     <>
+    {/* This is the header of the webpage */}
     <Header/>
  
     </>
