@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
 @theme{
-  --font-primary: "Chakra Petch", serif,
+  --font-primary:"Poppin", serif,
   ;
+}
+.element{
+  font-family: "Chakra Petch", serif;
+  font-weight: 400;
+  font-style: normal;
 }
