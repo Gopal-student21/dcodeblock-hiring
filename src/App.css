@@ -1,11 +1,15 @@
 @import "tailwindcss";
 
-@theme{
-  --font-primary:"Poppin", serif,
-  ;
-}
 .element{
   font-family: "Chakra Petch", serif;
   font-weight: 400;
   font-style: normal;
 }
+
+.effect:hover{
+ text-shadow: 0px 0px 5px white;
+ font-size: 13px;
+ 
+}
+
+

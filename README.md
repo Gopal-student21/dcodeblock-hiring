@@ -28,4 +28,8 @@ In css file
    
     - @import "tailwindcss";
 
-    
+### Componets
+ There are multiple componenets are made for the structured and maitanable code 
+
+ ### Animation 
+ Framer motion is use for the smooth animationa and transition It is good practice to use in main.jsx file but I used this packege in each componets to use different animation in and out 
