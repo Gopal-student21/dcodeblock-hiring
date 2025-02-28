@@ -17,7 +17,7 @@ const Header = () => {
           alt="image"
         />
         {/* This is the container of the buttons which is using a svg to get the uniq design */}
-        <button className="relative mr-[100px] flex items-center justify-center element effect">
+        <button className="relative mr-[100px] flex items-center justify-center element effect head ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="150"

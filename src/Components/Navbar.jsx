@@ -4,10 +4,9 @@ import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
-
+            //  there is a navbar class which is written in the css file App.css
     <div
-      className="text-white container flex justify-center items-center  border-[1px] border-white shadow-[0_4px_10px_rgba(255,255,255,0.5)] w-[55%] h-[60px] mt-10 rounded-lg bg-[rgb(40,8,58)]
-      "
+      className="text-white container flex justify-center items-center border-[1px] border-white shadow-[0_4px_10px_rgba(255,255,255,0.5)] w-full sm:w-[90%] lg:w-[55%] h-[60px] mt-10 rounded-lg bg-[rgb(40,8,58)] navbar flex-wrap "
     >
       {/* This is the container of the navbar Link tage is use in li tags for */}
       <motion.div
@@ -16,13 +15,16 @@ const Navbar = () => {
           transition={{ duration: 0.9 }}
           >
       {/* element and effect tag is used to resolve the problem of fonts and additional effects */}
+        <nav className="flex justify-center items-center w-full navbar">
+        <ul className="flex flex-wrap gap-x-4 gap-y-4 justify-center items-center m-5 md:m-0">
+          {/* this is the list of the navbar which have the same svg tags for same design and the Link tag for the navigation of the page */}
+        <li className="relative flex flex-col justify-center items-center w-[120px] ">
 
-      <ul className="flex gap-4 relative justify-center items-center m-5">
-        <li className="relative flex justify-center items-center  ">
           {" "}
           <svg
+           className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -44,11 +46,13 @@ const Navbar = () => {
             Overview
           </Link>
         </li>
-        <li className="relative flex justify-center items-center">
+        <li className="relative flex flex-col justify-center items-center w-[120px]">
+
           {" "}
           <svg
+          className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -70,11 +74,12 @@ const Navbar = () => {
             Create Team
           </Link>
         </li>
-        <li className="relative flex justify-center items-center">
+        <li className="relative flex flex-col justify-center items-center w-[120px]">
+
           {" "}
-          <svg
+          <svg className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -96,11 +101,12 @@ const Navbar = () => {
             Prize & Sponsors
           </Link>
         </li>
-        <li className="relative flex justify-center items-center">
+        <li className="relative flex flex-col justify-center items-center w-[120px]">
+
           {" "}
-          <svg
+          <svg className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -122,11 +128,12 @@ const Navbar = () => {
             FAQs
           </Link>
         </li>
-        <li className="relative flex justify-center items-center">
+        <li className="relative flex flex-col justify-center items-center w-[120px]">
+
           {" "}
-          <svg
+          <svg className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -148,11 +155,12 @@ const Navbar = () => {
             Judging & Rules
           </Link>
         </li>
-        <li className="relative flex justify-center items-center">
+        <li className="relative flex flex-col justify-center items-center w-[120px]">
+
           {" "}
-          <svg
+          <svg className="w-auto h-10"
             xmlns="http://www.w3.org/2000/svg"
-            width="120"
+            width="220"
             height="53"
             viewBox="0 0 150 53"
             fill="none"
@@ -175,6 +183,7 @@ const Navbar = () => {
           </Link>
         </li>
       </ul>
+      </nav>
       </motion.div>
     </div>
   );
